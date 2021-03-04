@@ -23,5 +23,6 @@ Have you enjoyed your meal"
 """
 
 def sentence(a,b="Benjamin",c="How are you"):
-
-    return print (sentence(a + b + c))
+    output=""
+    output=a+" "+b+". "+c
+    return output
