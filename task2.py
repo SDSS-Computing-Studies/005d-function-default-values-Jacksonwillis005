@@ -23,4 +23,3 @@ def multiplication(number,end=12):
         list.append(i*number)
     return list
 
-print (multiplication(5))

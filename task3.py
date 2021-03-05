@@ -14,3 +14,11 @@ assert title() == "=========\n= Title =\n========="
 (2 points)
 
 """
+
+def title(title):
+    title="Title"
+    symbol=str()
+    return symbol + title + symbol
+
+
+print(title("*")) 

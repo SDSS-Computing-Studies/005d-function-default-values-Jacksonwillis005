@@ -5,5 +5,3 @@ def test1():
 
 def test2():
     assert task2.multiplication(3,5) == [3,6,9,12,15]
-
-test1()
