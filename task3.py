@@ -15,10 +15,6 @@ assert title() == "=========\n= Title =\n========="
 
 """
 
-def title(title):
-    title="Title"
-    symbol=str()
-    return symbol + title + symbol
-
-
-print(title("*")) 
+def title(symbol="="):
+    title=" Title "
+    return symbol * 9 + "\n" + symbol + title + symbol + "\n" + symbol*9
